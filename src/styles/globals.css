@@ -1,0 +1,16 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  @apply font-sans;
+}
+
+@layer components {
+  .content-wrapper {
+    @apply p-32 bg-prim-2 text-prim-1 w-full;
+  }
+}
